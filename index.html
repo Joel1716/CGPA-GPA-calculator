@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CGPA Calculator</title>
+  </head>
+  <body>
+    <section>
+      <div class="display">
+        <p class="js-display"></p>
+      </div>
+      <main>
+        <div>
+          <label for="GPA" title="Your Weigheted points"
+            >Quantity Points:
+          </label>
+          <input
+            class="js-GPA"
+            type="text"
+            name="GPA"
+            id="GPA"
+            placeholder="GPA"
+          />
+        </div>
+        <div>
+          <label for="units">Course Units: </label>
+          <input
+            class="js-units"
+            type="text"
+            name="units"
+            id="units"
+            placeholder="Units"
+          />
+        </div>
+        <div class="calc-buttons">
+          <button class="js-calc-GPA">GPA</button>
+          <button class="js-calc-CGPA">CGPA</button>
+        </div>
+      </main>
+      <p class="js-error-message error-message"></p>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
